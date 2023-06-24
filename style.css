@@ -1,0 +1,68 @@
+
+@import url("//db.onlinewebfonts.com/c/d7e8a95865396cddca89b00080d2cba6?family=SoDo+Sans+SemiBold");
+
+*{
+    font-family: 'SoDo Sans SemiBold',Helvetica Neue,Helvetica,Arial,sans-serif;
+    margin: 0px;
+}
+
+header{
+    display: block;
+}
+
+.brand-logo{
+    height: 51px;
+    width: 51px;
+    top: 50%;
+    transform: translate(0, -50%);
+}
+
+.brand-logo{
+    position: absolute;
+    color: #fff;
+    display: inline-block;
+    font-size: 2.1rem;
+    padding: 0px;
+    margin-left: 30px;
+}
+
+img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+
+nav{
+    background-color: white;
+    height: auto;
+}
+
+.nav-wrapper{
+    position: relative;
+    height: 100%;
+}
+
+.nav-items{
+    text-transform: uppercase;
+    padding: 5px;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 80px;
+    margin-right: auto;
+}
+
+li{
+    display: inline-block;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+}
+
+li > a{
+    text-decoration: none;
+    color: black;
+}
+
+li > a:hover{
+    color: #008248;
+}
+
