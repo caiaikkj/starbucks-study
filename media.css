@@ -70,4 +70,21 @@
         cursor: pointer;
     }
 
+    .sb-footer-social{
+        margin-left: -85px;
+    }
+
+    .sb-footer-policy li{
+        font-size: 13px;
+        display: block;
+        justify-content: center;
+        align-items: center;
+        line-height: 0.1em;
+        margin-left: -110px;
+    }
+
+    .sb-footer-copyright{
+        font-size: 12px;
+    }
+
 }
